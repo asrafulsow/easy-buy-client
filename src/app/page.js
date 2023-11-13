@@ -15,7 +15,7 @@ import TrendingProduct from "@/components/Home/TrendingProduct/TrendingProduct";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Banner />
+      {/* <Banner />
       <FlashSell />
       <Category />
       <TrendingProduct />
@@ -27,7 +27,7 @@ export default function Home() {
       <News />
       <Gallery />
       <Reviews />
-      <Subscribe />
+      <Subscribe /> */}
     </main>
   )
 }
