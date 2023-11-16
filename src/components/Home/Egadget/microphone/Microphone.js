@@ -44,7 +44,7 @@ const Microphone = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-3 gap-5">
+    <div className="grid lg:grid-cols-3 grid-cols- gap-5 place-content-center">
       {products?.map((product) => (
         <ProductCard key={product.id} product={product}></ProductCard>
       ))}

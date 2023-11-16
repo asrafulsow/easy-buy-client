@@ -2,9 +2,9 @@ import Image from 'next/image';
 import img from '../../../../assets/adsp-removebg-preview.png';
 const ProductCard = ({ product }) => {
   console.log(product);
-  console.log('hello');
+
   return (
-    <div className="bg-white border rounded  w-[250px] px-5 py-7">
+    <div className="bg-white border rounded  lg:w-[250px] w-[400px] px-5 py-7 ">
       <Image
         className="py-3"
         src={img}
